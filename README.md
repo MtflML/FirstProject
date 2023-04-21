@@ -34,7 +34,6 @@ while True:
         "yoffset":random.randint(0,1080)
     })                                                                    
     time.sleep(random.randint(0,10))
-
 ```
 然后在主程序入口（默认为index.py）改为以下内容：
 ```
