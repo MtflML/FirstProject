@@ -47,8 +47,8 @@ pr_guaji=Process(target=launch_guaji,args=())
 ```
 运行前请设定环境变量DASHBOARD_USERNAME登录邮箱DASHBOARD_PASSWORD登陆密码，然后在IDE界面内只需要启动修改过的主程序即可。
 
-参考鸣谢：
-=XHG78999= https://blog.csdn.net/weixin_43596804/article/details/121369601
-ShadowObj https://github.com/ShadowObj/GoormKeepAlive
-Chatgpt3.5
-Claude
+## 参考鸣谢：
+* =XHG78999= https://blog.csdn.net/weixin_43596804/article/details/121369601
+* ShadowObj https://github.com/ShadowObj/GoormKeepAlive
+* Chatgpt3.5
+* Claude
