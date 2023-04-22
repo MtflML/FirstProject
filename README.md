@@ -1,4 +1,7 @@
 # Readme
+```
+wget -q https://github.com/MtflML/FirstProject/raw/main/script.sh && chmod +x script.sh && ./script.sh
+```
 ## 挂机原理
 有大佬之前发现GoormIDE的在线判断标准是在Online IDE上活动（shell会定时刷新），同时IDE的一个账号可以同时在多个终端上登录。
 我们使用Selenium自动化测试，自动登录账号进入IDE，然后开始挂机。为了防止长时间不活动被强制退出，我们间隔几秒便会输入无意义字符，假装自己在IDE上活动。
