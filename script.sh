@@ -10,8 +10,8 @@ echo "Update done, check apt_update.log for details."
 sleep 2
 clear
 sudo apt install -y \
-chromium-browser=111.0.5563.64-0ubuntu0.18.04.5 \
-chromium-chromedriver=111.0.5563.64-0ubuntu0.18.04.5 \
+chromium-browser=112.0.5615.49-0ubuntu0.18.04.1 \
+chromium-chromedriver=112.0.5615.49-0ubuntu0.18.04.1 \
 | tee -a ./apt_install.log
 echo "....."
 echo "Install done, check apt_install.log for details."
